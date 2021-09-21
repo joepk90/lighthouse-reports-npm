@@ -22,6 +22,11 @@ Generate a json report:
 npm run env -- lighthouse https://youtube.com --budget-path=./budget.json --output=json --output-path=./reports/report.json --chrome-flags=\"--headless\" --view=true
 ```
 
+Generate both a json and html report:
+```sh
+npm run env -- lighthouse https://youtube.com --budget-path=./budget.json --output="html","json" --output-path=./reports/report --chrome-flags=\"--headless\" --view=true
+```
+
 
 ### Lighthouse Documentation
 | Lighthouse NPM | [https://www.npmjs.com/package/lighthouse][PlGh] |
