@@ -1,0 +1,15 @@
+{
+  "name": "lighthouse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lighthouse": "lighthouse $npm_config_url --budget-path=./budget.json --output-path=./reports/report.html --chrome-flags=\"--headless\" --view=true",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lighthouse": "^8.4.0"
+  }
+}
