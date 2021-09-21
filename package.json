@@ -1,7 +1,7 @@
 {
-  "name": "lighthouse",
+  "name": "lighthouse-reports-npm",
   "version": "1.0.0",
-  "description": "",
+  "description": "A project for running lighthouse reports locally, without installing dependancies globally",
   "main": "index.js",
   "scripts": {
     "lighthouse": "lighthouse $npm_config_url --budget-path=./budget.json --output-path=./reports/report.html --chrome-flags=\"--headless\" --view=true",
